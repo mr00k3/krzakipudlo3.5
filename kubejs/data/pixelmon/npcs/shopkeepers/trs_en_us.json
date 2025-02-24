@@ -1,0 +1,329 @@
+{
+  "data": {
+    "type": "TRShop"
+  },
+  "textures": [
+    {
+      "name": "212a.png"
+    },
+    {
+      "name": "212d.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Jorlen"
+    },
+    {
+      "name": "Vinneth"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Hello! I see you are a connoisseur of fine Pokémon ware! I have some rare treasures for sale here.",
+      "goodbye": "It's been a pleasure doing business with you."
+    }
+  ],
+  "items": [
+	{
+      "name": "Galar: Swords Dance"
+    },
+    {
+      "name": "Galar: Body Slam"
+    },
+    {
+      "name": "Galar: Flamethrower"
+    },
+    {
+      "name": "Galar: Hydro Pump"
+    },
+    {
+      "name": "Galar: Surf"
+    },
+    {
+      "name": "Galar: Ice Beam"
+    },
+    {
+      "name": "Galar: Blizzard"
+    },
+    {
+      "name": "Galar: Low Kick"
+    },
+    {
+      "name": "Galar: Thunderbolt"
+    },
+    {
+      "name": "Galar: Thunder"
+    },
+    {
+      "name": "Galar: Earthquake"
+    },
+    {
+      "name": "Galar: Psychic"
+    },
+    {
+      "name": "Galar: Agility"
+    },
+    {
+      "name": "Galar: Focus Energy"
+    },
+    {
+      "name": "Galar: Metronome"
+    },
+    {
+      "name": "Galar: Fire Blast"
+    },
+    {
+      "name": "Galar: Waterfall"
+    },
+    {
+      "name": "Galar: Amnesia"
+    },
+    {
+      "name": "Galar: Leech Life"
+    },
+    {
+      "name": "Galar: Tri Attack"
+    },
+    {
+      "name": "Galar: Substitute"
+    },
+    {
+      "name": "Galar: Reversal"
+    },
+    {
+      "name": "Galar: Sludge Bomb"
+    },
+    {
+      "name": "Galar: Spikes"
+    },
+    {
+      "name": "Galar: Outrage"
+    },
+    {
+      "name": "Galar: Psyshock"
+    },
+    {
+      "name": "Galar: Endure"
+    },
+    {
+      "name": "Galar: Sleep Talk"
+    },
+    {
+      "name": "Galar: Megahorn"
+    },
+    {
+      "name": "Galar: Baton Pass"
+    },
+    {
+      "name": "Galar: Encore"
+    },
+    {
+      "name": "Galar: Iron Tail"
+    },
+    {
+      "name": "Galar: Crunch"
+    },
+    {
+      "name": "Galar: Shadow Ball"
+    },
+    {
+      "name": "Galar: Future Sight"
+    },
+    {
+      "name": "Galar: Uproar"
+    },
+    {
+      "name": "Galar: Heat Wave"
+    },
+    {
+      "name": "Galar: Taunt"
+    },
+    {
+      "name": "Galar: Trick"
+    },
+    {
+      "name": "Galar: Superpower"
+    },
+    {
+      "name": "Galar: Skill Swap"
+    },
+    {
+      "name": "Galar: Blaze Kick"
+    },
+    {
+      "name": "Galar: Hyper Voice"
+    },
+    {
+      "name": "Galar: Overheat"
+    },
+    {
+      "name": "Galar: Cosmic Power"
+    },
+    {
+      "name": "Galar: Muddy Water"
+    },
+    {
+      "name": "Galar: Iron Defense"
+    },
+    {
+      "name": "Galar: Dragon Claw"
+    },
+    {
+      "name": "Galar: Bulk Up"
+    },
+    {
+      "name": "Galar: Calm Mind"
+    },
+    {
+      "name": "Galar: Leaf Blade"
+    },
+    {
+      "name": "Galar: Dragon Dance"
+    },
+    {
+      "name": "Galar: Gyro Ball"
+    },
+    {
+      "name": "Galar: Close Combat"
+    },
+    {
+      "name": "Galar: Toxic Spikes"
+    },
+    {
+      "name": "Galar: Flare Blitz"
+    },
+    {
+      "name": "Galar: Aura Sphere"
+    },
+    {
+      "name": "Galar: Poison Jab"
+    },
+    {
+      "name": "Galar: Dark Pulse"
+    },
+    {
+      "name": "Galar: Seed Bomb"
+    },
+    {
+      "name": "Galar: X-Scissor"
+    },
+    {
+      "name": "Galar: Bug Buzz"
+    },
+    {
+      "name": "Galar: Dragon Pulse"
+    },
+    {
+      "name": "Galar: Power Gem"
+    },
+    {
+      "name": "Galar: Focus Blast"
+    },
+    {
+      "name": "Galar: Energy Ball"
+    },
+    {
+      "name": "Galar: Brave Bird"
+    },
+    {
+      "name": "Galar: Earth Power"
+    },
+    {
+      "name": "Galar: Nasty Plot"
+    },
+    {
+      "name": "Galar: Zen Headbutt"
+    },
+    {
+      "name": "Galar: Flash Cannon"
+    },
+    {
+      "name": "Galar: Leaf Storm"
+    },
+    {
+      "name": "Galar: Power Whip"
+    },
+    {
+      "name": "Galar: Gunk Shot"
+    },
+    {
+      "name": "Galar: Iron Head"
+    },
+    {
+      "name": "Galar: Stone Edge"
+    },
+    {
+      "name": "Galar: Stealth Rock"
+    },
+    {
+      "name": "Galar: Grass Knot"
+    },
+    {
+      "name": "Galar: Sludge Wave"
+    },
+    {
+      "name": "Galar: Heavy Slam"
+    },
+    {
+      "name": "Galar: Electro Ball"
+    },
+    {
+      "name": "Galar: Foul Play"
+    },
+    {
+      "name": "Galar: Stored Power"
+    },
+    {
+      "name": "Galar: Ally Switch"
+    },
+    {
+      "name": "Galar: Scald"
+    },
+    {
+      "name": "Galar: Work Up"
+    },
+    {
+      "name": "Galar: Wild Charge"
+    },
+    {
+      "name": "Galar: Drill Run"
+    },
+    {
+      "name": "Galar: Heat Crash"
+    },
+    {
+      "name": "Galar: Hurricane"
+    },
+    {
+      "name": "Galar: Play Rough"
+    },
+    {
+      "name": "Galar: Venom Drench"
+    },
+    {
+      "name": "Galar: Dazzling Gleam"
+    },
+    {
+      "name": "Galar: Darkest Lariat"
+    },
+    {
+      "name": "Galar: High Horsepower"
+    },
+    {
+      "name": "Galar: Throat Chop"
+    },
+    {
+      "name": "Galar: Pollen Puff"
+    },
+    {
+      "name": "Galar: Psychic Fangs"
+    },
+    {
+      "name": "Galar: Liquidation"
+    },
+    {
+      "name": "Galar: Body Press"
+    }
+  ]
+}

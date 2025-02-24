@@ -1,0 +1,32 @@
+{
+    "data": {
+        "type": "Experience Seller"
+    },
+    "textures": [
+        {
+            "name": "person4.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Experience Peddler Taylor"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "No experience? Money can solve that",
+            "goodbye": "My favorite customer, come back soon!"
+        }
+    ],
+    "items": [
+        {
+            "name": "minecraft:experience_bottle"
+        },
+        {
+            "name": "pixelmon:exp_share"
+        },
+        {
+            "name": "pixelmon:exp_all"
+        }
+    ]
+}

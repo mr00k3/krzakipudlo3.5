@@ -1,0 +1,6 @@
+{
+  "threads": 5,
+  "updateSeconds": 10,
+  "updateRadius": 200,
+  "permission": ""
+}

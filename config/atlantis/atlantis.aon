@@ -1,0 +1,258 @@
+### Atlantis global settings
+## These settings affect everything using Atlantis.
+## Be sure to periodically update this file, ensuring you have good settings for performance!
+
+# The number of threads Atlantis should use.
+# -1 will automatically assign a value based on the number of plugins in use.
+# Default: -1
+threads: -1
+
+# Whether to save files automatically, asynchronously.
+# Default: true
+useAsyncAutosaver: true
+
+# When player data should be invalidated on player join/leave.
+# Options: NEVER, DATABASE, ALWAYS.
+# Default: DATABASE
+playerDataInvalidation: "DATABASE"
+
+# How many seconds between each async autosave, if enabled.
+# Default: 60
+asyncSaveDelaySeconds: 60
+
+# How many milliseconds to put between each individual file save.
+# Default: 30
+dataSaveDelay: 30
+
+# How many milliseconds between each attempt at executing config scheduled tasks.
+# Default: 500
+scheduledTaskDelay: 500
+
+# How many milliseconds a second click must be within on a page to be considered a double click.
+# Default: 500
+doubleClickDelay: 500
+
+# How many milliseconds to put between a duplicate file save and its retry.
+# Default: 50
+duplicateSaveDelay: 50
+
+# Whether to use the error bin instead of renaming and marking files as errored.
+# Default: false
+useErrorBin: false
+
+# Whether config load messages are hidden to the debug log.
+# Default: true
+hideLoadMessages: true
+
+# Whether a present and registered placeholder API should be used in the processing of text in pages.
+# Default: true
+usePlaceholdersInPages: true
+
+# How many seconds until a cached player skin is invalidated and is gotten from Mojang again.
+# Default: 120960
+skinRefetchGapSeconds: 120960
+
+# How many seconds until a leaderboard times out when trying to load data.
+# Default: 5
+leaderboardGetDataTimeoutSeconds: 5
+
+# How many seconds between automatic leaderboard recalculations.
+# Default: 120
+leaderboardRecalculateGapSeconds: 120
+
+# Whether leaderboards recalculate using multiple threads.
+# Default: true
+leaderboardMultithreadedRecalculate: true
+
+# Default event priority to register occasion event handlers with if not specified.
+# Options: HIGHEST, HIGH, NORMAL, LOW, LOWEST.
+# Default: HIGHEST
+occasionsDefaultEventHandlerPriority: "HIGHEST"
+
+# Whether Trident should send a public broadcast when Waterdude joins.
+# Default: true
+tridentPublicMessage: true
+
+# Whether to remove extra data after a schematic is prepared for placement.
+# Default: true
+cleanSchematicsAfterPrepare: true
+
+# Whether schematics placed with '/trident schematic' should ignore air blocks.
+# Default: true
+tridentSchematicIgnoreAir: true
+
+# Whether schematics placed with '/trident schematic' should use an async placement strategy.
+# Default: false
+tridentSchematicAsync: false
+
+# Number of blocks to place per schematic placement step when using '/trident schematic'.
+# Default: 500
+tridentSchematicBlocksPerStep: 500
+
+# Number of ticks per schematic placement step when using '/trident schematic'.
+# Default: 1
+tridentSchematicTicksPerStep: 1
+
+# Number of schematic placements to hold in history for '/trident undo'.
+# Default: 10
+tridentSchematicHistoryDepth: 10
+
+# Whether the mod ID of a data type is prefixed to database table names.
+# Default: true
+modIDPrefixOnTableNames: true
+
+# Database schema to use instead of each mod's mod ID.
+# Default: N/A
+globalDatabaseSchemaOverride: ""
+
+# Whether warnings are sent to console if player login/logout callbacks are missing.
+# Default: true
+warnForMissingCallbacks: true
+
+# Whether Trident will create an example Trident level.
+# Default: false
+createDefaultTridentLevel: false
+
+# How many milliseconds to wait for Redis acknowledgements before proceeding with syncing.
+# Default: 2000
+redisAckMilliseconds: 2000
+
+# How many milliseconds to wait between each Redis sync message.
+# Default: 250
+redisSyncMilliseconds: 250
+
+# Whether to use SSL when establishing a Redis connection.
+# Default: true
+redisSSL: true
+
+# The number of connections to use in database connection pools by default.
+# Default: 10
+defaultDatabaseConnections: 10
+
+# Key/value pairs of HikariCP database properties.
+hikariProperties: {
+  "alwaysSendSetIsolation": "false"
+  "useServerPrepStmts": "true"
+  "maxLifetime": "1800000"
+  "prepStmtCacheSqlLimit": "2048"
+  "useUnicode": "true"
+  "elideSetAutoCommits": "true"
+  "cachePrepStmts": "true"
+  "cacheCallableStmts": "true"
+  "passwordCharacterEncoding": "UTF-8"
+  "driverClassName": "com.mysql.cj.jdbc.Driver"
+  "characterEncoding": "UTF-8"
+  "prepStmtCacheSize": "250"
+  "useLocalSessionState": "true"
+  "cacheServerConfiguration": "true"
+}
+
+# Remapped database names to alter the default mod ID based database names.
+remappedDatabaseNames: {
+  "exampleold": "exampleremap"
+}
+
+# Pinned decoration items in the page decorator.
+# Can be modified in-game from within the decorator.
+pinnedDecorations: [
+  "minecraft:white_stained_glass_pane"
+  "minecraft:orange_stained_glass_pane"
+  "minecraft:magenta_stained_glass_pane"
+  "minecraft:light_blue_stained_glass_pane"
+  "minecraft:yellow_stained_glass_pane"
+  "minecraft:lime_stained_glass_pane"
+  "minecraft:pink_stained_glass_pane"
+  "minecraft:gray_stained_glass_pane"
+  "minecraft:light_gray_stained_glass_pane"
+  "minecraft:cyan_stained_glass_pane"
+  "minecraft:purple_stained_glass_pane"
+  "minecraft:blue_stained_glass_pane"
+  "minecraft:brown_stained_glass_pane"
+  "minecraft:green_stained_glass_pane"
+  "minecraft:red_stained_glass_pane"
+  "minecraft:black_stained_glass_pane"
+]
+
+# Remappings for parsed item stacks.
+remappedParsedItemStacks: {
+  "pixelmon:net_ball": "pixelmon:poke_ball {PokeBallID:net_ball}"
+  "pixelmon:wing_ball": "pixelmon:poke_ball {PokeBallID:wing_ball}"
+  "luxury_ball": "pixelmon:poke_ball {PokeBallID:luxury_ball}"
+  "pixelmon:park_ball": "pixelmon:poke_ball {PokeBallID:park_ball}"
+  "feather_ball": "pixelmon:poke_ball {PokeBallID:feather_ball}"
+  "nest_ball": "pixelmon:poke_ball {PokeBallID:nest_ball}"
+  "pixelmon:dive_ball": "pixelmon:poke_ball {PokeBallID:dive_ball}"
+  "quick_ball": "pixelmon:poke_ball {PokeBallID:quick_ball}"
+  "great_ball": "pixelmon:poke_ball {PokeBallID:great_ball}"
+  "pixelmon:heavy_ball": "pixelmon:poke_ball {PokeBallID:heavy_ball}"
+  "pixelmon:ultra_ball": "pixelmon:poke_ball {PokeBallID:ultra_ball}"
+  "jet_ball": "pixelmon:poke_ball {PokeBallID:jet_ball}"
+  "pixelmon:luxury_ball": "pixelmon:poke_ball {PokeBallID:luxury_ball}"
+  "pixelmon:master_ball": "pixelmon:poke_ball {PokeBallID:master_ball}"
+  "pixelmon:heal_ball": "pixelmon:poke_ball {PokeBallID:heal_ball}"
+  "repeat_ball": "pixelmon:poke_ball {PokeBallID:repeat_ball}"
+  "pixelmon:gigaton_ball": "pixelmon:poke_ball {PokeBallID:gigaton_ball}"
+  "net_ball": "pixelmon:poke_ball {PokeBallID:net_ball}"
+  "dive_ball": "pixelmon:poke_ball {PokeBallID:dive_ball}"
+  "ancient_great_ball": "pixelmon:poke_ball {PokeBallID:ancient_great_ball}"
+  "pixelmon:origin_ball": "pixelmon:poke_ball {PokeBallID:origin_ball}"
+  "level_ball": "pixelmon:poke_ball {PokeBallID:level_ball}"
+  "pixelmon:ancient_poke_ball": "pixelmon:poke_ball {PokeBallID:ancient_poke_ball}"
+  "pixelmon:jet_ball": "pixelmon:poke_ball {PokeBallID:jet_ball}"
+  "sport_ball": "pixelmon:poke_ball {PokeBallID:sport_ball}"
+  "safari_ball": "pixelmon:poke_ball {PokeBallID:safari_ball}"
+  "gigaton_ball": "pixelmon:poke_ball {PokeBallID:gigaton_ball}"
+  "pixelmon:repeat_ball": "pixelmon:poke_ball {PokeBallID:repeat_ball}"
+  "pixelmon:christmas_ball": "pixelmon:poke_ball {PokeBallID:christmas_ball}"
+  "dream_ball": "pixelmon:poke_ball {PokeBallID:dream_ball}"
+  "pixelmon:beast_ball": "pixelmon:poke_ball {PokeBallID:beast_ball}"
+  "pixelmon:safari_ball": "pixelmon:poke_ball {PokeBallID:safari_ball}"
+  "leaden_ball": "pixelmon:poke_ball {PokeBallID:leaden_ball}"
+  "pixelmon:friend_ball": "pixelmon:poke_ball {PokeBallID:friend_ball}"
+  "gs_ball": "pixelmon:poke_ball {PokeBallID:gs_ball}"
+  "friend_ball": "pixelmon:poke_ball {PokeBallID:friend_ball}"
+  "christmas_ball": "pixelmon:poke_ball {PokeBallID:christmas_ball}"
+  "pixelmon:moon_ball": "pixelmon:poke_ball {PokeBallID:moon_ball}"
+  "premier_ball": "pixelmon:poke_ball {PokeBallID:premier_ball}"
+  "pixelmon:ancient_heavy_ball": "pixelmon:poke_ball {PokeBallID:ancient_heavy_ball}"
+  "pixelmon:ancient_ultra_ball": "pixelmon:poke_ball {PokeBallID:ancient_ultra_ball}"
+  "pixelmon:strange_ball": "pixelmon:poke_ball {PokeBallID:strange_ball}"
+  "cherish_ball": "pixelmon:poke_ball {PokeBallID:cherish_ball}"
+  "dusk_ball": "pixelmon:poke_ball {PokeBallID:dusk_ball}"
+  "timer_ball": "pixelmon:poke_ball {PokeBallID:timer_ball}"
+  "pixelmon:dream_ball": "pixelmon:poke_ball {PokeBallID:dream_ball}"
+  "moon_ball": "pixelmon:poke_ball {PokeBallID:moon_ball}"
+  "ancient_poke_ball": "pixelmon:poke_ball {PokeBallID:ancient_poke_ball}"
+  "pixelmon:leaden_ball": "pixelmon:poke_ball {PokeBallID:leaden_ball}"
+  "pixelmon:premier_ball": "pixelmon:poke_ball {PokeBallID:premier_ball}"
+  "love_ball": "pixelmon:poke_ball {PokeBallID:love_ball}"
+  "pixelmon:quick_ball": "pixelmon:poke_ball {PokeBallID:quick_ball}"
+  "pixelmon:great_ball": "pixelmon:poke_ball {PokeBallID:great_ball}"
+  "strange_ball": "pixelmon:poke_ball {PokeBallID:strange_ball}"
+  "pixelmon:fast_ball": "pixelmon:poke_ball {PokeBallID:fast_ball}"
+  "ancient_ultra_ball": "pixelmon:poke_ball {PokeBallID:ancient_ultra_ball}"
+  "heavy_ball": "pixelmon:poke_ball {PokeBallID:heavy_ball}"
+  "ancient_heavy_ball": "pixelmon:poke_ball {PokeBallID:ancient_heavy_ball}"
+  "fast_ball": "pixelmon:poke_ball {PokeBallID:fast_ball}"
+  "pixelmon:level_ball": "pixelmon:poke_ball {PokeBallID:level_ball}"
+  "ultra_ball": "pixelmon:poke_ball {PokeBallID:ultra_ball}"
+  "heal_ball": "pixelmon:poke_ball {PokeBallID:heal_ball}"
+  "pixelmon:love_ball": "pixelmon:poke_ball {PokeBallID:love_ball}"
+  "pixelmon:lure_ball": "pixelmon:poke_ball {PokeBallID:lure_ball}"
+  "beast_ball": "pixelmon:poke_ball {PokeBallID:beast_ball}"
+  "poke_ball": "pixelmon:poke_ball {PokeBallID:poke_ball}"
+  "pixelmon:sport_ball": "pixelmon:poke_ball {PokeBallID:sport_ball}"
+  "pixelmon:dusk_ball": "pixelmon:poke_ball {PokeBallID:dusk_ball}"
+  "pixelmon:gs_ball": "pixelmon:poke_ball {PokeBallID:gs_ball}"
+  "pixelmon:timer_ball": "pixelmon:poke_ball {PokeBallID:timer_ball}"
+  "origin_ball": "pixelmon:poke_ball {PokeBallID:origin_ball}"
+  "pixelmon:nest_ball": "pixelmon:poke_ball {PokeBallID:nest_ball}"
+  "pixelmon:cherish_ball": "pixelmon:poke_ball {PokeBallID:cherish_ball}"
+  "lure_ball": "pixelmon:poke_ball {PokeBallID:lure_ball}"
+  "pixelmon:ancient_great_ball": "pixelmon:poke_ball {PokeBallID:ancient_great_ball}"
+  "wing_ball": "pixelmon:poke_ball {PokeBallID:wing_ball}"
+  "pixelmon:poke_ball": "pixelmon:poke_ball {PokeBallID:poke_ball}"
+  "pixelmon:feather_ball": "pixelmon:poke_ball {PokeBallID:feather_ball}"
+  "master_ball": "pixelmon:poke_ball {PokeBallID:master_ball}"
+  "park_ball": "pixelmon:poke_ball {PokeBallID:park_ball}"
+}

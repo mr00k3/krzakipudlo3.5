@@ -1,0 +1,190 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=5023461%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -44
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=478298%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 122
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 4aa78f2b-528b-4d36-b793-28f53f1f8f321738719314057
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = 09ec930b-e5d4-4343-b7ba-51c8a5e98bd11738719314068
+  y = 322
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 6382bedb-3cfc-4b74-bb54-bca29d3b93e61738719314069
+  y = 364
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = cb9f3dff-917e-4677-a65c-1ead5f2216441738719314069
+  y = 226
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b8f09876-73ab-4c58-867e-c975d2b37c0c1738719314069
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = true
+  x = 142
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3d9c9552-78dd-40ba-99a3-beee8991aa031738719314069
+  y = 152
+  height = 30
+}
+
+customization {
+  path = resources/minecraft_title.png
+  orientation = mid-centered
+  x = -149
+  width = 300
+  action = addtexture
+  actionid = bc405b3c-bc07-4e73-aec7-de17fd7270981738719391097
+  y = -161
+  height = 78
+}
+

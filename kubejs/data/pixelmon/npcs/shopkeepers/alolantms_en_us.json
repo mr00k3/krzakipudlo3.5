@@ -1,0 +1,329 @@
+{
+  "data": {
+    "type": "AlolanShop"
+  },
+  "textures": [
+    {
+      "name": "212c.png"
+    },
+    {
+      "name": "212e.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Jorlen"
+    },
+    {
+      "name": "Vincent"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Hello! I see you are a connoisseur of fine Pokémon ware! I have some rare treasures for sale here.",
+      "goodbye": "It's been a pleasure doing business with you."
+    }
+  ],
+  "items": [
+    {
+      "name": "Alola: Work Up"
+    },
+    {
+      "name": "Alola: Dragon Claw"
+    },
+    {
+      "name": "Alola: Psyshock"
+    },
+    {
+      "name": "Alola: Calm Mind"
+    },
+    {
+      "name": "Alola: Roar"
+    },
+    {
+      "name": "Alola: Toxic"
+    },
+    {
+      "name": "Alola: Hail"
+    },
+    {
+      "name": "Alola: Bulk Up"
+    },
+    {
+      "name": "Alola: Venoshock"
+    },
+    {
+      "name": "Alola: Hidden Power"
+    },
+    {
+      "name": "Alola: Sunny Day"
+    },
+    {
+      "name": "Alola: Taunt"
+    },
+    {
+      "name": "Alola: Ice Beam"
+    },
+    {
+      "name": "Alola: Blizzard"
+    },
+    {
+      "name": "Alola: Hyper Beam"
+    },
+    {
+      "name": "Alola: Light Screen"
+    },
+    {
+      "name": "Alola: Protect"
+    },
+    {
+      "name": "Alola: Rain Dance"
+    },
+    {
+      "name": "Alola: Roost"
+    },
+    {
+      "name": "Alola: Safeguard"
+    },
+    {
+      "name": "Alola: Frustration"
+    },
+    {
+      "name": "Alola: Solar Beam"
+    },
+    {
+      "name": "Alola: Smack Down"
+    },
+    {
+      "name": "Alola: THunderbolt"
+    },
+    {
+      "name": "Alola: Thunder"
+    },
+    {
+      "name": "Alola: Earthquake"
+    },
+    {
+      "name": "Alola: Return"
+    },
+    {
+      "name": "Alola: Leech Life"
+    },
+    {
+      "name": "Alola: Psychic"
+    },
+    {
+      "name": "Alola: Shadow Ball"
+    },
+    {
+      "name": "Alola: Brick Break"
+    },
+    {
+      "name": "Alola: Double Team"
+    },
+    {
+      "name": "Alola: Reflect"
+    },
+    {
+      "name": "Alola: Sludge Wave"
+    },
+    {
+      "name": "Alola: Flamethrower"
+    },
+    {
+      "name": "Alola: Sludge Bomb"
+    },
+    {
+      "name": "Alola: Sandstorm"
+    },
+    {
+      "name": "Alola: Fire Blast"
+    },
+    {
+      "name": "Alola: Rock Tomb"
+    },
+    {
+      "name": "Alola: Aerial Ace"
+    },
+    {
+      "name": "Alola: Torment"
+    },
+    {
+      "name": "Alola: Facade"
+    },
+    {
+      "name": "Alola: Flame Charge"
+    },
+    {
+      "name": "Alola: Rest"
+    },
+    {
+      "name": "Alola: Attract"
+    },
+    {
+      "name": "Alola: Thief"
+    },
+    {
+      "name": "Alola: Low Sweep"
+    },
+    {
+      "name": "Alola: Round"
+    },
+    {
+      "name": "Alola: Echoed Voice"
+    },
+    {
+      "name": "Alola: Overheat"
+    },
+    {
+      "name": "Alola: Steel Wing"
+    },
+    {
+      "name": "Alola: Focus Blast"
+    },
+    {
+      "name": "Alola: Energy Ball"
+    },
+    {
+      "name": "Alola: False Swipe"
+    },
+    {
+      "name": "Alola: Scald"
+    },
+    {
+      "name": "Alola: Fling"
+    },
+    {
+      "name": "Alola: Charge Beam"
+    },
+    {
+      "name": "Alola: Sky Drop"
+    },
+    {
+      "name": "Alola: Brutal Swing"
+    },
+    {
+      "name": "Alola: Quash"
+    },
+    {
+      "name": "Alola: Will-O-Wisp"
+    },
+    {
+      "name": "Alola: Acrobatics"
+    },
+    {
+      "name": "Alola: Embargo"
+    },
+    {
+      "name": "Alola: Explosion"
+    },
+    {
+      "name": "Alola: Shadow Claw"
+    },
+    {
+      "name": "Alola: Payback"
+    },
+    {
+      "name": "Alola: Smart Strike"
+    },
+    {
+      "name": "Alola: Giga Impact"
+    },
+    {
+      "name": "Alola: Rock Polish"
+    },
+    {
+      "name": "Alola: Aurora Veil"
+    },
+    {
+      "name": "Alola: Stone Edge"
+    },
+    {
+      "name": "Alola: Volt Switch"
+    },
+    {
+      "name": "Alola: Thunder Wave"
+    },
+    {
+      "name": "Alola: Gyro Ball"
+    },
+    {
+      "name": "Alola: Swords Dance"
+    },
+    {
+      "name": "Alola: Fly"
+    },
+    {
+      "name": "Alola: Psych Up"
+    },
+    {
+      "name": "Alola: Bulldoze"
+    },
+    {
+      "name": "Alola: Frost Breath"
+    },
+    {
+      "name": "Alola: Rock Slide"
+    },
+    {
+      "name": "Alola: X-Scissor"
+    },
+    {
+      "name": "Alola: Dragon Tail"
+    },
+    {
+      "name": "Alola: Infestation"
+    },
+    {
+      "name": "Alola: Poison Jab"
+    },
+    {
+      "name": "Alola: Dream Eater"
+    },
+    {
+      "name": "Alola: Grass Knot"
+    },
+    {
+      "name": "Alola: Swagger"
+    },
+    {
+      "name": "Alola: Sleep Talk"
+    },
+    {
+      "name": "Alola: U-Turn"
+    },
+    {
+      "name": "Alola: Substitute"
+    },
+    {
+      "name": "Alola: Flash Cannon"
+    },
+    {
+      "name": "Alola: Trick Room"
+    },
+    {
+      "name": "Alola: Wild Charge"
+    },
+    {
+      "name": "Alola: Surf"
+    },
+    {
+      "name": "Alola: Snarl"
+    },
+    {
+      "name": "Alola: Nature Power"
+    },
+    {
+      "name": "Alola: Dark Pulse"
+    },
+    {
+      "name": "Alola: Waterfall"
+    },
+    {
+      "name": "Alola: Dazzling Gleam"
+    },
+    {
+      "name": "Alola: Confide"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "retroGen": false,
+  "swapper": {
+    "minecraft:bee_nest": "minecraft:air"
+  }
+}
