@@ -1,5 +1,8 @@
 {
-	"favorites": [],
+	"favorites": [
+		"{data:{count:1,id:\"minecraft:stripped_spruce_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"extradelight:wallpaper_light_blue\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
 	"hiddenFavorites": [],
 	"displays": []
 }

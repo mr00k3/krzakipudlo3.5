@@ -1,4 +1,3 @@
-
 [formatting]
 	#How the mod name should be formatted in the tooltip. Leave blank to disable.
 	#Use these formatting colors:
@@ -6,4 +5,3 @@
 	#With these formatting options:
 	#obfuscated, bold, strikethrough, underline, italic
 	modNameFormat = "blue italic"
-

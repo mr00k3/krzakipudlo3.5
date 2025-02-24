@@ -18,4 +18,3 @@ showCuttingBoardHelper = false
 	# WARNING: This will break the entity glow effect, this may or may not be a problem for you.
 	# Valid values: true, false
 	electricityShadersFix = false
-
