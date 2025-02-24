@@ -1,7 +1,0 @@
-{
-  "patches": {
-    "spawning_heightmap_shrink": true,
-    "spawning_height_check_sync": true,
-    "out_of_battle_catch": true
-  }
-}
